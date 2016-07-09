@@ -1,0 +1,132 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+20160709020925_create_notes.rb	db/migrate/20160709020925_create_notes.rb	1;"	F
+20160709021126_create_to_dos.rb	db/migrate/20160709021126_create_to_dos.rb	1;"	F
+20160709021234_create_subtasks.rb	db/migrate/20160709021234_create_subtasks.rb	1;"	F
+20160709021436_add_description_to_notes.rb	db/migrate/20160709021436_add_description_to_notes.rb	1;"	F
+404.html	public/404.html	1;"	F
+422.html	public/422.html	1;"	F
+500.html	public/500.html	1;"	F
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddDescriptionToNotes	db/migrate/20160709021436_add_description_to_notes.rb	/^class AddDescriptionToNotes < ActiveRecord::Migration[5.0]$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Productivity
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+CreateNotes	db/migrate/20160709020925_create_notes.rb	/^class CreateNotes < ActiveRecord::Migration[5.0]$/;"	c
+CreateSubtasks	db/migrate/20160709021234_create_subtasks.rb	/^class CreateSubtasks < ActiveRecord::Migration[5.0]$/;"	c
+CreateToDos	db/migrate/20160709021126_create_to_dos.rb	/^class CreateToDos < ActiveRecord::Migration[5.0]$/;"	c
+Note	app/models/note.rb	/^class Note < ApplicationRecord$/;"	c
+NoteTest	test/models/note_test.rb	/^class NoteTest < ActiveSupport::TestCase$/;"	c
+NotesChannel	app/channels/notes_channel.rb	/^class NotesChannel < ApplicationCable::Channel$/;"	c
+NotesController	app/controllers/notes_controller.rb	/^class NotesController < ApplicationController$/;"	c
+NotesControllerTest	test/controllers/notes_controller_test.rb	/^class NotesControllerTest < ActionDispatch::IntegrationTest$/;"	c
+NotesHelper	app/helpers/notes_helper.rb	/^module NotesHelper$/;"	m
+Productivity	config/application.rb	/^module Productivity$/;"	m
+README	README.md	/^# README$/;"	h
+README.md	README.md	1;"	F
+Subtask	app/models/subtask.rb	/^class Subtask < ApplicationRecord$/;"	c
+SubtaskTest	test/models/subtask_test.rb	/^class SubtaskTest < ActiveSupport::TestCase$/;"	c
+SubtasksController	app/controllers/subtasks_controller.rb	/^class SubtasksController < ApplicationController$/;"	c
+SubtasksControllerTest	test/controllers/subtasks_controller_test.rb	/^class SubtasksControllerTest < ActionDispatch::IntegrationTest$/;"	c
+SubtasksHelper	app/helpers/subtasks_helper.rb	/^module SubtasksHelper$/;"	m
+ToDo	app/models/to_do.rb	/^class ToDo < ApplicationRecord$/;"	c
+ToDoTest	test/models/to_do_test.rb	/^class ToDoTest < ActiveSupport::TestCase$/;"	c
+ToDosController	app/controllers/to_dos_controller.rb	/^class ToDosController < ApplicationController$/;"	c
+ToDosControllerTest	test/controllers/to_dos_controller_test.rb	/^class ToDosControllerTest < ActionDispatch::IntegrationTest$/;"	c
+ToDosHelper	app/helpers/to_dos_helper.rb	/^module ToDosHelper$/;"	m
+application.rb	config/application.rb	1;"	F
+application_controller.rb	app/controllers/application_controller.rb	1;"	F
+application_controller_renderer.rb	config/initializers/application_controller_renderer.rb	1;"	F
+application_helper.rb	app/helpers/application_helper.rb	1;"	F
+application_job.rb	app/jobs/application_job.rb	1;"	F
+application_mailer.rb	app/mailers/application_mailer.rb	1;"	F
+application_record.rb	app/models/application_record.rb	1;"	F
+assets.rb	config/initializers/assets.rb	1;"	F
+backtrace_silencers.rb	config/initializers/backtrace_silencers.rb	1;"	F
+boot.rb	config/boot.rb	1;"	F
+broadcast	app/channels/notes_channel.rb	/^  def self.broadcast(note)$/;"	F	class:NotesChannel
+bundle	bin/bundle	1;"	F
+change	db/migrate/20160709020925_create_notes.rb	/^  def change$/;"	f	class:CreateNotes
+change	db/migrate/20160709021126_create_to_dos.rb	/^  def change$/;"	f	class:CreateToDos
+change	db/migrate/20160709021234_create_subtasks.rb	/^  def change$/;"	f	class:CreateSubtasks
+change	db/migrate/20160709021436_add_description_to_notes.rb	/^  def change$/;"	f	class:AddDescriptionToNotes
+channel.rb	app/channels/application_cable/channel.rb	1;"	F
+connected	app/assets/javascripts/channels/notes.coffee	/^  connected: ->$/;"	m
+connection.rb	app/channels/application_cable/connection.rb	1;"	F
+cookies_serializer.rb	config/initializers/cookies_serializer.rb	1;"	F
+create	app/controllers/notes_controller.rb	/^  def create$/;"	f	class:NotesController
+create	app/controllers/to_dos_controller.rb	/^  def create$/;"	f	class:ToDosController
+destroy	app/controllers/notes_controller.rb	/^  def destroy$/;"	f	class:NotesController
+destroy	app/controllers/to_dos_controller.rb	/^  def destroy$/;"	f	class:ToDosController.create.update
+development.rb	config/environments/development.rb	1;"	F
+disconnected	app/assets/javascripts/channels/notes.coffee	/^  disconnected: ->$/;"	m
+edit	app/controllers/notes_controller.rb	/^  def edit$/;"	f	class:NotesController
+edit	app/controllers/to_dos_controller.rb	/^  def edit$/;"	f	class:ToDosController
+environment.rb	config/environment.rb	1;"	F
+filter_parameter_logging.rb	config/initializers/filter_parameter_logging.rb	1;"	F
+index	app/controllers/notes_controller.rb	/^  def index$/;"	f	class:NotesController
+index	app/controllers/to_dos_controller.rb	/^  def index$/;"	f	class:ToDosController
+inflections.rb	config/initializers/inflections.rb	1;"	F
+mime_types.rb	config/initializers/mime_types.rb	1;"	F
+new	app/controllers/notes_controller.rb	/^  def new$/;"	f	class:NotesController
+new	app/controllers/to_dos_controller.rb	/^  def new$/;"	f	class:ToDosController
+new_framework_defaults.rb	config/initializers/new_framework_defaults.rb	1;"	F
+note.rb	app/models/note.rb	1;"	F
+note_params	app/controllers/notes_controller.rb	/^    def note_params$/;"	f	class:NotesController
+note_test.rb	test/models/note_test.rb	1;"	F
+notes.coffee	app/assets/javascripts/channels/notes.coffee	1;"	F
+notes.coffee	app/assets/javascripts/notes.coffee	1;"	F
+notes_channel.rb	app/channels/notes_channel.rb	1;"	F
+notes_controller.rb	app/controllers/notes_controller.rb	1;"	F
+notes_controller_test.rb	test/controllers/notes_controller_test.rb	1;"	F
+notes_helper.rb	app/helpers/notes_helper.rb	1;"	F
+production.rb	config/environments/production.rb	1;"	F
+puma.rb	config/puma.rb	1;"	F
+rails	bin/rails	1;"	F
+rake	bin/rake	1;"	F
+received	app/assets/javascripts/channels/notes.coffee	/^  received: (data) ->$/;"	m
+routes.rb	config/routes.rb	1;"	F
+schema.rb	db/schema.rb	1;"	F
+seeds.rb	db/seeds.rb	1;"	F
+session_store.rb	config/initializers/session_store.rb	1;"	F
+set_note	app/controllers/notes_controller.rb	/^    def set_note$/;"	f	class:NotesController
+set_to_do	app/controllers/to_dos_controller.rb	/^    def set_to_do$/;"	f	class:ToDosController.create.update.destroy
+setup	bin/setup	1;"	F
+show	app/controllers/notes_controller.rb	/^  def show$/;"	f	class:NotesController
+show	app/controllers/to_dos_controller.rb	/^  def show$/;"	f	class:ToDosController
+spring	bin/spring	1;"	F
+spring.rb	config/spring.rb	1;"	F
+subscribed	app/channels/notes_channel.rb	/^  def subscribed$/;"	f	class:NotesChannel
+subtask.rb	app/models/subtask.rb	1;"	F
+subtask_test.rb	test/models/subtask_test.rb	1;"	F
+subtasks.coffee	app/assets/javascripts/subtasks.coffee	1;"	F
+subtasks_controller.rb	app/controllers/subtasks_controller.rb	1;"	F
+subtasks_controller_test.rb	test/controllers/subtasks_controller_test.rb	1;"	F
+subtasks_helper.rb	app/helpers/subtasks_helper.rb	1;"	F
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
+test.rb	config/environments/test.rb	1;"	F
+test_helper.rb	test/test_helper.rb	1;"	F
+to_do.rb	app/models/to_do.rb	1;"	F
+to_do_params	app/controllers/to_dos_controller.rb	/^    def to_do_params$/;"	f	class:ToDosController.create.update.destroy
+to_do_test.rb	test/models/to_do_test.rb	1;"	F
+to_dos.coffee	app/assets/javascripts/to_dos.coffee	1;"	F
+to_dos_controller.rb	app/controllers/to_dos_controller.rb	1;"	F
+to_dos_controller_test.rb	test/controllers/to_dos_controller_test.rb	1;"	F
+to_dos_helper.rb	app/helpers/to_dos_helper.rb	1;"	F
+unsubscribed	app/channels/notes_channel.rb	/^  def unsubscribed$/;"	f	class:NotesChannel
+update	app/controllers/notes_controller.rb	/^  def update$/;"	f	class:NotesController
+update	app/controllers/to_dos_controller.rb	/^  def update$/;"	f	class:ToDosController.create
+update	bin/update	1;"	F
+wrap_parameters.rb	config/initializers/wrap_parameters.rb	1;"	F
