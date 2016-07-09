@@ -16,10 +16,15 @@ App.cable = ActionCable.createConsumer(); // this doesn't specify socket URI, ws
 App.notes = App.cable.subscriptions.create('NotesChannel', {
   received: function(data) {
               $('#notes').removeClass('hidden')
-              return $('#notes').append(this.renderMessage(data));
+              return $('#notes').append(this.renderNotes(data));
             },
 
-  renderMessage: function(data) {
+  renderNotes: function(data) {
                    return "<tr>" + "<td>" + data.note + "</td>" + "<td><a data-confirm='Are you sure?' rel='nofollow' data-method='delete' href='/notes/" + data.id + "'>Destroy</a></td>" + "</tr>";
                  }
+});
+
+$("#new_note_button").click(function() {
+  var form = $("#new_note")[0];
+  form.submit();
 });

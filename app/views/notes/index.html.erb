@@ -1,4 +1,5 @@
 <p id="notice"><%= notice %></p>
+<div id="notices-channel"></div>
 
 <%= form_for(@note) do |f| %>
   <% if @note.errors.any? %>
@@ -16,7 +17,7 @@
   <div class="actions">
     <%= f.label :description %>
     <%= f.text_field :description %>
-    <%= f.submit %>
+    <button id="new_note_button">Create</button>
   </div>
 <% end %>
 

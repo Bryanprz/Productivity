@@ -46,6 +46,7 @@ class NotesController < ApplicationController
 
         # This broadcasts the ActiveRecord object @note to the 'notes' channel. Here we're just sending data from the database to the channel. The NotesChannel is responsible for streaming this data to its subscribers.
         ActionCable.server.broadcast 'notes', note: @note.description, id: @note.id
+        ActionCable.server.broadcast 'notices', notice: "Note was successfully created. Nice."
         #format.html { redirect_to index, notice: 'Note was successfully created.' }
         #format.json { redirect_to index, status: :created, location: @note }
       #else
