@@ -24,7 +24,9 @@ App.notes = App.cable.subscriptions.create('NotesChannel', {
                  }
 });
 
-$("#new_note_button").click(function() {
-  var form = $("#new_note")[0];
-  form.submit();
+$(document).ready(function() {
+  $("#new_note_button").click(function() {
+    var form = $("#new_note")[0];
+    form.submit();
+  });
 });
