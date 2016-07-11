@@ -32,6 +32,7 @@ NotesChannel	app/channels/notes_channel.rb	/^class NotesChannel < ApplicationCab
 NotesController	app/controllers/notes_controller.rb	/^class NotesController < ApplicationController$/;"	c
 NotesControllerTest	test/controllers/notes_controller_test.rb	/^class NotesControllerTest < ActionDispatch::IntegrationTest$/;"	c
 NotesHelper	app/helpers/notes_helper.rb	/^module NotesHelper$/;"	m
+NoticesChannel	app/channels/notices_channel.rb	/^class NoticesChannel < ApplicationCable::Channel$/;"	c
 Productivity	config/application.rb	/^module Productivity$/;"	m
 README	README.md	/^# README$/;"	h
 README.md	README.md	1;"	F
@@ -91,6 +92,7 @@ notes_channel.rb	app/channels/notes_channel.rb	1;"	F
 notes_controller.rb	app/controllers/notes_controller.rb	1;"	F
 notes_controller_test.rb	test/controllers/notes_controller_test.rb	1;"	F
 notes_helper.rb	app/helpers/notes_helper.rb	1;"	F
+notices_channel.rb	app/channels/notices_channel.rb	1;"	F
 production.rb	config/environments/production.rb	1;"	F
 puma.rb	config/puma.rb	1;"	F
 rails	bin/rails	1;"	F
@@ -108,6 +110,7 @@ show	app/controllers/to_dos_controller.rb	/^  def show$/;"	f	class:ToDosControll
 spring	bin/spring	1;"	F
 spring.rb	config/spring.rb	1;"	F
 subscribed	app/channels/notes_channel.rb	/^  def subscribed$/;"	f	class:NotesChannel
+subscribed	app/channels/notices_channel.rb	/^  def subscribed$/;"	f	class:NoticesChannel
 subtask.rb	app/models/subtask.rb	1;"	F
 subtask_test.rb	test/models/subtask_test.rb	1;"	F
 subtasks.coffee	app/assets/javascripts/subtasks.coffee	1;"	F
@@ -126,6 +129,7 @@ to_dos_controller.rb	app/controllers/to_dos_controller.rb	1;"	F
 to_dos_controller_test.rb	test/controllers/to_dos_controller_test.rb	1;"	F
 to_dos_helper.rb	app/helpers/to_dos_helper.rb	1;"	F
 unsubscribed	app/channels/notes_channel.rb	/^  def unsubscribed$/;"	f	class:NotesChannel
+unsubscribed	app/channels/notices_channel.rb	/^  def unsubscribed$/;"	f	class:NoticesChannel
 update	app/controllers/notes_controller.rb	/^  def update$/;"	f	class:NotesController
 update	app/controllers/to_dos_controller.rb	/^  def update$/;"	f	class:ToDosController.create
 update	bin/update	1;"	F

@@ -1,25 +1,27 @@
 <p id="notice"><%= notice %></p>
 <div id="notices-channel"></div>
 
-<%= form_for(@note) do |f| %>
-  <% if @note.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@note.errors.count, "error") %> prohibited this note from being saved:</h2>
+<section>
+  <%= form_for(@note) do |f| %>
+    <% if @note.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@note.errors.count, "error") %> prohibited this note from being saved:</h2>
 
-      <ul>
-      <% @note.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
+        <ul>
+          <% @note.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div class="actions">
+      <%= f.label "Create a new note" %>
+      <%= f.text_field :description %>
+      <button id="new_note_button">Create</button>
     </div>
   <% end %>
-
-  <div class="actions">
-    <%= f.label :description %>
-    <%= f.text_field :description %>
-    <button id="new_note_button">Create</button>
-  </div>
-<% end %>
+</section>
 
 <hr />
 
@@ -41,3 +43,23 @@
     <% end %>
   </tbody>
 </table>
+
+<div id="main">
+  <section id="top-row">
+    <div id="red">
+      <p>Im red</p>
+    </div>
+    <div id="orange">
+      <p>Im orange</p>
+    </div>
+    <div id="yellow">
+      <p>Im yellow</p>
+    </div>
+  </section>
+
+  <section id="middle-row">
+  </section>
+
+  <section id="bottom-row">
+  </section>
+</div>
